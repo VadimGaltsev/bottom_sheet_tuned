@@ -107,10 +107,6 @@ class MainActivity : AppCompatActivity() {
         registerReceiver(Rec, IntentFilter("OK").apply { priority = 1 }, Manifest.permission.READ_SMS, null)
         registerReceiver(Rec2, IntentFilter("OK").apply { priority = -100 })
 
-//        val url = "https://alfa-eb.mamka.net/asd?targetAccount=40817810302140000406&amount=100%2C22"
-//        val result = Uri.decode(url)
-//        val path = Uri.parse(url).getQueryParameter("amount")
-//        println(BigDecimal("100.123"))
 
         val dialog = DialogTest()
 
