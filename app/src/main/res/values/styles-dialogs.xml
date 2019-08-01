@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomSheetRoundedCorners" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_dialog_rounded</item>
+    </style>
+    <style name="BottomSheetDialogRoundedCorners" parent="@style/Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetRoundedCorners</item>
+    </style>
+</resources>
